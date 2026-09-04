@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+```
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<title>
+    Request a Quote | AgroFresh
+</title>
+<link rel="icon" type="image/png" href="../assets/images/logo.png">
+<link
+    rel="stylesheet"
+    href="assets/css/style.css"
+>
+```
+
+</head>
+
+<body>
+
+```
+<!-- ==============================
+     HEADER
+============================== -->
+
+<div id="site-header"></div>
+
+
+<main>
+
+
+    <!-- ==============================
+         PAGE HERO
+    ============================== -->
+
+    <section class="page-hero">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                B2B INQUIRY
+            </span>
+
+            <h1>
+                Request a Quote
+            </h1>
+
+            <p>
+                Send your product, quantity, packaging and destination requirements.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- ==============================
+         QUOTE FORM
+    ============================== -->
+
+    <section class="section">
+
+        <div class="container form-layout">
+
+
+            <form
+                class="rfq-form"
+                id="rfq-form"
+                action="https://api.web3forms.com/submit"
+                method="POST"
+            >
+
+
+                <!-- ==============================
+                     WEB3FORMS CONFIGURATION
+                ============================== -->
+
+                <input
+                    type="hidden"
+                    name="access_key"
+                    value="f17f0630-d49c-4c5d-9848-8c7b3728eee4"
+                >
+
+                <input
+                    type="hidden"
+                    name="subject"
+                    value="New Quote Request - AgroFresh Website"
+                >
+
+
+                <!-- ==============================
+                     BUYER INFORMATION
+                ============================== -->
+
+                <h2>
+                    Buyer Information
+                </h2>
+
+
+                <div class="form-grid">
+
+
+                    <label>
+
+                        Full Name *
+
+                        <input
+                            type="text"
+                            name="name"
+                            required
+                            placeholder="Enter your name"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Company Name *
+
+                        <input
+                            type="text"
+                            name="company"
+                            required
+                            placeholder="Enter company name"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Country *
+
+                        <select
+                            required
+                            name="country"
+                        >
+
+                            <option value="">
+                                Select country
+                            </option>
+
+                            <option value="Saudi Arabia">
+                                Saudi Arabia
+                            </option>
+
+                            <option value="United Arab Emirates">
+                                United Arab Emirates
+                            </option>
+
+                            <option value="Qatar">
+                                Qatar
+                            </option>
+
+                            <option value="Oman">
+                                Oman
+                            </option>
+
+                            <option value="Kuwait">
+                                Kuwait
+                            </option>
+
+                            <option value="Bahrain">
+                                Bahrain
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+
+                        Email *
+
+                        <input
+                            type="email"
+                            name="email"
+                            required
+                            placeholder="name@company.com"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Phone / WhatsApp *
+
+                        <input
+                            type="tel"
+                            name="phone"
+                            required
+                            placeholder="+966 ..."
+                        >
+
+                    </label>
+
+
+                </div>
+
+
+                <!-- ==============================
+                     PRODUCT REQUIREMENTS
+                ============================== -->
+
+                <h2>
+                    Product Requirements
+                </h2>
+
+
+                <div class="form-grid">
+
+
+                    <label>
+
+                        Product *
+
+                        <select
+                            required
+                            name="product"
+                            id="quote-product"
+                        >
+
+                            <option value="">
+                                Select product
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+
+                        Variety
+
+                        <input
+                            type="text"
+                            name="variety"
+                            placeholder="Product variety"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Grade
+
+                        <input
+                            type="text"
+                            name="grade"
+                            placeholder="Required grade"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Quantity *
+
+                        <input
+                            type="text"
+                            name="quantity"
+                            required
+                            placeholder="e.g. 20 tons"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Unit
+
+                        <select name="unit">
+
+                            <option value="Ton">
+                                Ton
+                            </option>
+
+                            <option value="Kg">
+                                Kg
+                            </option>
+
+                            <option value="Container">
+                                Container
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+
+                        Packaging
+
+                        <select name="packaging">
+
+                            <option value="Buyer specification">
+                                Buyer specification
+                            </option>
+
+                            <option value="Mesh Bag">
+                                Mesh Bag
+                            </option>
+
+                            <option value="Jute Bag">
+                                Jute Bag
+                            </option>
+
+                            <option value="Carton">
+                                Carton
+                            </option>
+
+                            <option value="Crate">
+                                Crate
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                </div>
+
+
+                <!-- ==============================
+                     SHIPPING INFORMATION
+                ============================== -->
+
+                <h2>
+                    Shipping Information
+                </h2>
+
+
+                <div class="form-grid">
+
+
+                    <label>
+
+                        Destination Country *
+
+                        <input
+                            type="text"
+                            name="destination"
+                            required
+                            placeholder="Destination country"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Destination Port
+
+                        <input
+                            type="text"
+                            name="port"
+                            placeholder="Port / city"
+                        >
+
+                    </label>
+
+
+                    <label>
+
+                        Preferred Incoterm
+
+                        <select name="incoterm">
+
+                            <option value="FOB">
+                                FOB
+                            </option>
+
+                            <option value="CFR">
+                                CFR
+                            </option>
+
+                            <option value="CIF">
+                                CIF
+                            </option>
+
+                            <option value="Other">
+                                Other
+                            </option>
+
+                        </select>
+
+                    </label>
+
+
+                    <label>
+
+                        Required Delivery Date
+
+                        <input
+                            type="date"
+                            name="delivery"
+                        >
+
+                    </label>
+
+
+                </div>
+
+
+                <!-- ==============================
+                     ADDITIONAL REQUIREMENTS
+                ============================== -->
+
+                <label>
+
+                    Additional Requirements
+
+                    <textarea
+                        name="message"
+                        rows="6"
+                        placeholder="Tell us about quality, packaging, delivery or other requirements..."
+                    ></textarea>
+
+                </label>
+
+
+                <!-- ==============================
+                     SUBMIT BUTTON
+                ============================== -->
+
+                <button
+                    class="btn btn-primary"
+                    type="submit"
+                >
+                    Submit Request
+                </button>
+
+
+                <!-- ==============================
+                     FORM NOTE
+                ============================== -->
+
+                <p class="form-note">
+                    Your inquiry will be sent directly to the AgroFresh export team.
+                </p>
+
+
+                <!-- ==============================
+                     SUCCESS MESSAGE
+                ============================== -->
+
+                <div
+                    id="form-success"
+                    class="success"
+                    hidden
+                >
+                    Thank you. Your inquiry has been received.
+                    Our export team can review your requirements.
+                </div>
+
+
+            </form>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- ==============================
+     FOOTER
+============================== -->
+
+<div id="site-footer"></div>
+
+
+<!-- ==============================
+     JAVASCRIPT
+============================== -->
+
+<script src="assets/js/data.js"></script>
+
+<script src="assets/js/components.js"></script>
+
+<script src="assets/js/main.js"></script>
+```
+
+</body>
+
+</html>
