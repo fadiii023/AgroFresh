@@ -9,24 +9,133 @@
         <priority>1.0</priority>
     </url>
 
-    <!-- Products -->
+    <!-- Main Pages -->
     <url>
         <loc>https://agrofresh.pk-traders.com/products.html</loc>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
 
-    <!-- About -->
     <url>
         <loc>https://agrofresh.pk-traders.com/about.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/contact.html</loc>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
     </url>
 
-    <!-- Request Quote -->
     <url>
         <loc>https://agrofresh.pk-traders.com/request-quote.html</loc>
         <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/export-markets.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/export-process.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/quality.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/packaging.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/faq.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/resources.html</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.6</priority>
+    </url>
+
+
+    <!-- Product Pages -->
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/potato.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/onion.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/tomato.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/green-chilli.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/mango.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/kinnow.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/garlic.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/ginger.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/carrot.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/cucumber.html</loc>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://agrofresh.pk-traders.com/products/pink-salt.html</loc>
+        <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
 
