@@ -1,37 +1,114 @@
-<!DOCTYPE html><html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <link rel="icon" type="image/png" href="../assets/images/logo.png">
-        <title>Products | AgroFresh</title>
-        <link rel="stylesheet" href="assets/css/style.css">
-    </head>
-    <body>
-        <div id="site-header"></div>
-        <main>
-            <section class="page-hero">
-                <div class="container">
-                    <span class="eyebrow">PRODUCT CATALOG</span>
-                    <h1>Fresh Pakistani Agricultural Products</h1>
-                    <p>Explore our range of products prepared for international B2B buyers.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO -->
+    <title>Agricultural Products | Fresh Produce from Pakistan | AgroFresh</title>
+    <meta name="description" content="Browse AgroFresh's range of fresh agricultural products from Pakistan including potatoes, onions, tomatoes, fruits and vegetables for international B2B buyers.">
+    <meta name="keywords" content="Pakistani agricultural products, fresh vegetables Pakistan, fresh fruits Pakistan, potato onion tomato exporter, agricultural produce supplier">
+    <meta name="author" content="AgroFresh">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://agrofresh.pk-traders.com/products.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="apple-touch-icon" href="assets/images/logo.png">
+    
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Agricultural Products | Fresh Produce from Pakistan | AgroFresh">
+    <meta property="og:description" content="Explore our catalog of fresh Pakistani agricultural products. Quality vegetables, fruits, and produce for wholesale and B2B buyers worldwide.">
+    <meta property="og:url" content="https://agrofresh.pk-traders.com/products.html">
+    <meta property="og:site_name" content="AgroFresh">
+    <meta property="og:image" content="https://agrofresh.pk-traders.com/assets/images/farms.jpeg">
+    <meta property="og:image:alt" content="Fresh agricultural products from Pakistan">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Agricultural Products | Fresh Produce from Pakistan | AgroFresh">
+    <meta name="twitter:description" content="Fresh Pakistani vegetables, fruits & agricultural products for international B2B buyers. Quality assured, export-ready supply.">
+    <meta name="twitter:image" content="https://agrofresh.pk-traders.com/assets/images/farms.jpeg">
+    <meta name="twitter:image:alt" content="AgroFresh fresh produce">
+    
+    <!-- Structured Data: Product Collection -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "AgroFresh Agricultural Products",
+      "url": "https://agrofresh.pk-traders.com/products.html",
+      "description": "Fresh agricultural products supplied by AgroFresh from Pakistan to international B2B buyers.",
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://agrofresh.pk-traders.com/#organization",
+        "name": "AgroFresh"
+      },
+      "hasPart": [
+        {
+          "@type": "Product",
+          "name": "Fresh Pakistani Potatoes",
+          "url": "https://agrofresh.pk-traders.com/products/potato.html",
+          "description": "High-quality potatoes sourced from Pakistan farms",
+          "category": "Vegetables"
+        },
+        {
+          "@type": "Product",
+          "name": "Fresh Pakistani Onions",
+          "url": "https://agrofresh.pk-traders.com/products/onion.html",
+          "description": "Premium quality onions for export and wholesale",
+          "category": "Vegetables"
+        },
+        {
+          "@type": "Product",
+          "name": "Fresh Pakistani Tomatoes",
+          "url": "https://agrofresh.pk-traders.com/products/tomato.html",
+          "description": "Fresh tomatoes from Pakistani farms",
+          "category": "Vegetables"
+        },
+        {
+          "@type": "Product",
+          "name": "Fresh Pakistani Green Chilies",
+          "url": "https://agrofresh.pk-traders.com/products/green-chilli.html",
+          "description": "Premium green chilies for global markets",
+          "category": "Vegetables"
+        }
+      ]
+    }
+    </script>
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div id="site-header"></div>
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">PRODUCT CATALOG</span>
+                <h1>Fresh Pakistani Agricultural Products</h1>
+                <p>Explore our range of products prepared for international B2B buyers.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="filters">
+                    <button class="filter active" data-filter="all">All Products</button>
+                    <button class="filter" data-filter="vegetables">Vegetables</button>
+                    <button class="filter" data-filter="fruits">Fruits</button>
+                    <button class="filter" data-filter="specialty">Specialty</button>
                 </div>
-            </section>
-            <section class="section">
-                <div class="container">
-                    <div class="filters">
-                        <button class="filter active" data-filter="all">All Products</button>
-                        <button class="filter" data-filter="vegetables">Vegetables</button>
-                        <button class="filter" data-filter="fruits">Fruits</button>
-                        <button class="filter" data-filter="specialty">Specialty</button>
-                    </div>
-                    <div class="product-grid" id="all-products"></div>
-                </div>
-            </section>
-        </main>
-        <div id="site-footer"></div>
-        <script src="assets/js/data.js"></script>
-        <script src="assets/js/components.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+                <div class="product-grid" id="all-products"></div>
+            </div>
+        </section>
+    </main>
+    <div id="site-footer"></div>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/components.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
